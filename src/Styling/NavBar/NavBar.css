@@ -1,0 +1,80 @@
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.canon-genius {
+  display: flex;
+  height: 46px;
+  align-items: center;
+  padding: 0 15px;
+  border: 1px solid rgba(238, 238, 238, 1);
+  border-radius: 5px;
+  box-shadow: 5px 10px 20px -20px #000000;
+}
+
+.canon-genius-logo {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2em;
+  font-family: "Pacifico", cursive;
+}
+
+.canon-genius-title {
+  color: #000000;
+}
+
+.logo {
+  max-height: 40px;
+  max-width: 40px;
+}
+
+.about-page {
+  color: #000000;
+  font-family: "Oswald", sans-serif;
+}
+
+.map-page {
+  color: #000000;
+  font-family: "Oswald", sans-serif;
+}
+
+.login-page {
+  color: #000000;
+  font-family: "Oswald", sans-serif;
+}
+
+.logout-btn {
+  font-size: 0.9em;
+  border: 0;
+  background: rgba(255, 0, 0, 0.74);
+  /* color: #fff; */
+  border-radius: 100px;
+  font-family: "Oswald", sans-serif;
+}
+
+.fa-user {
+  color: #000000;
+}
+
+.canon-genius li > button {
+  font-size: 0.9em;
+  border: 0;
+  background: rgba(19, 20, 20, 1);
+  color: #fff;
+  border-radius: 100px;
+  font-family: "Oswald", sans-serif;
+}
+.canon-genius li {
+  cursor: pointer;
+}
+.canon-genius li:hover {
+  color: rgba(73, 156, 215, 0.9);
+}
+
+.canon-genius li:not(:last-child):not(.canon-genius-logo) {
+  margin-right: 15px;
+}
+.canon-genius li a:not(.fa-canon-genius):not(.login-page):not(.fa-user) {
+  margin-right: 100px;
+}
