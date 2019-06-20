@@ -1,7 +1,7 @@
 import React from "react";
 import "../../Styling/NavBar/NavBar.css";
 import "../../Styling/LandingPage/style.css";
-import logo from "../../Images/camera.png";
+import logo from "../../Images/canon-logo.png";
 import canon from "../../Images/canon-logo.png";
 import { Link } from "react-router-dom";
 import { capitalize } from "../../Utilities/Utilities";
@@ -24,13 +24,13 @@ class NavBar extends React.Component {
           <li className="canon-genius-logo">
             <Link to="/main" className="canon-genius-title">
               <img src={logo} className="logo" alt="" />
-              Canon Genius
+              Genius
             </Link>
           </li>
           <li>
             <ul className="login-page">
               Hi{" "}
-              {this.props.user ? capitalize(this.props.user.username) : "guest"}
+              {this.props.user ? capitalize(this.props.user) : "guest"}
               !
             </ul>
           </li>

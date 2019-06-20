@@ -25,8 +25,8 @@ class Signup extends React.Component {
     return (
       <div className="signup-style">
         <Jumbotron>
-          <h1 className="canon-signup">Become Photographic</h1>
-          <p>Let Canon Genius take your photos to the next level</p>
+          <h1 className="canon-signup">SignUp</h1>
+          <p>Teach your photos to smile</p>
           <p>
             <Button className="mr-2" variant="primary" href="/login">
               LogIn

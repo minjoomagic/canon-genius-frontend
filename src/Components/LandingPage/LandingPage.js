@@ -12,9 +12,9 @@ class LandingPage extends React.Component {
               <h1 className="welcome">Welcome to Canon Genius</h1>
             </div>
 
-            <p className="lets">Smile!</p>
-            <a href="/main" className="landingPage-btn">
-              Enter
+            <p className="lets">Teach your photos to smile</p>
+            <a href="/login" className="landingPage-btn">
+              Login
             </a>
           </div>
         </header>

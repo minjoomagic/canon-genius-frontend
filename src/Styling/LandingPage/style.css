@@ -22,6 +22,7 @@
 .container {
   max-width: 960px;
   margin: auto;
+  max-height: 600px;
   overflow: hidden;
   padding: 0 3rem;
 }
@@ -35,7 +36,7 @@
 
 .showcase:before {
   content: "";
-  background: url("../../Images/canon.jpeg") no-repeat center center/cover;
+  background: url("../../Images/canon2.jpeg") no-repeat center center/cover;
   background-color: #000000;
   position: absolute;
   background-size: stretch;

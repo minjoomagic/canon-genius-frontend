@@ -17,7 +17,7 @@ class Login extends React.Component {
   };
 
   onLoginHandler = () => {
-    this.props.onLoginHandler(this.state);
+    this.props.onLoginHandler(this.state.username);
   };
 
   render() {
